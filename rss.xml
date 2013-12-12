@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Life is...]]></title><description><![CDATA[하루프레스로 만들어가는 일상 블로그...]]></description><link>http://shyblue.github.com</link><image><url>http://shyblue.github.com/public/img/favorite.png</url><title>Life is...</title><link>http://shyblue.github.com</link></image><generator>RSS for Node</generator><lastBuildDate>Thu, 12 Dec 2013 04:47:45 GMT</lastBuildDate><atom:link href="http://shyblue.github.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[하루 프레스]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/cc922eebe13668bb1ac3e6a9c361ee7a?r=pg&s=48.jpg&d=identicon"><br/><h1 id="toc_5">하루 프레스 설치 및 테스트</h1>
+
+<h2 id="toc_6">GitHub Page 생성</h2>
+
+<ul>
+<li>Git Hub 에 shyblue.github.io 라는 Repository 를 생성하니 자동으로 Page가 생성이 된다.</li>
+</ul>
+
+<h2 id="toc_7">하루 프레스 설치</h2>
+
+<ul>
+<li>하루 프레스를 클론 받아서 make init</li>
+<li>하루 프레스 라는 정적 블로그를 설치</li>
+<li>설치중에 node-gyp 모듈을 설치하는데 root 권한이 필요
+
+<ul>
+<li>root 계정으로 별도로 설치하고 Makefile 내 해당 부분을 주석처리</li>
+</ul></li>
+<li>config 까지 대화식으로 진행됨</li>
+</ul>
+]]></description><link>http://shyblue.github.com/post/하루-프레스</link><guid isPermaLink="false">하루-프레스</guid><dc:creator><![CDATA[<a href="" target="_blank">Ricky Jang</a>]]></dc:creator><pubDate>Thu, 12 Dec 2013 02:58:00 GMT</pubDate></item></channel></rss>
