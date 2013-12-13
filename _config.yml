@@ -10,6 +10,7 @@ pygments: true
 #
 title : life is...
 tagline: Site Tagline
+encoding: UTF-8
 author :
   name : Ricky Jang
   email : rickyjang@gmail.com
