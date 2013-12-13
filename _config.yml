@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+pygments: false
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -12,12 +12,14 @@ title : life is...
 tagline: Site Tagline
 timezone: Asia/Seoul
 encoding: UTF-8
-lsi: true
+lsi: false
+safe: true
 author :
   name : Ricky Jang
   email : rickyjang@gmail.com
   github : shyblue
   twitter : rickyjang
+markdown: redcarpet
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
