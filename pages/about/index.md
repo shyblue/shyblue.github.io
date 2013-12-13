@@ -30,7 +30,7 @@ description: ""
 
 - DBMS: Oracle(7.3~10g), MS-SQL, MySQL, CUBRID, Postgresql
     1. DB 설계, SQL Tunning
-    1. Oracle : PL/SQL Programming, OCI, Pro*C
+    1. Oracle : PL/SQL Programming, OCI, Pro\*C
     1. 큐브리드(UniSQL) : C-API Lib, CCI
     1. MS-SQL : T-SQL Programming, ADO, ADO.NET, ODBC, FreeTDS
     1. MySQL / Postgresql
