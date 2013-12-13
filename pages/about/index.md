@@ -11,7 +11,6 @@ description: ""
 ## Career Objective
 
 - **Game Server 개발**
-
     1. Linux/MS-Windows 환경에서의 개발 경험 보유
     1. MMORPG Live Service 경험 보유
     1. MORPG Live Service 경험 보유
@@ -23,7 +22,6 @@ description: ""
 - Specialty skills : ***C/C++, C#, Game(network) server, Database 설계/개발/운용***
 
 - Language : 어떤 언어라도, 주어진 역활과 기능에 적합하다면, 유연하게 사용할 수 있는 기반과 경험을 보유
-
     1. C/C++ : STL, Boost, TBB, C++11, Win32, GTK+ ...
     1. C# : WinForm, Mono, GTK#
     1. Objective-C 
@@ -31,7 +29,6 @@ description: ""
     1. ProudNet
 
 - DBMS: Oracle(7.3~10g), MS-SQL, MySQL, CUBRID, Postgresql
-
     1. DB 설계, SQL Tunning
     1. Oracle : PL/SQL Programming, OCI, Pro\*C
     1. 큐브리드(UniSQL) : C-API Lib, CCI
@@ -40,12 +37,10 @@ description: ""
     1. http://www.thisisgame.com/webzine/series/nboard/212/?series=39
 
 - 개발 경험 OS : 운영환경을 가리지는 않고 다양하게 경험
-
     1. Linux/Unix : Kernel module 개발, System Application, Network Server, Game Server, GUI Application, Web
     1. MS-Windows : Win32 Application, Game Server
 
 - 개발 플랫폼 : 필요에 따라 가장 효율적인 플랫폼을 선택해서 진행할 수 있는 유연한 기술적 기반을 소유
-
     1. 웹 어플리케이션
     2. 윈도우용 응용프로그램
     3. 윈도우 시스템 프로그램
