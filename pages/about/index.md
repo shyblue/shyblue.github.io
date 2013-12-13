@@ -48,7 +48,6 @@ description: ""
     5. 리눅스 시스템 프로그램
 
 - 개발관련 기술: 개발 프로세스 정의/구축
-
     1. Program Manager 경험
     2. Issue Tracker : iTrack, Trac, RedMine, Jira
     3. SCM : cvs, subversion, git, mercurial(HG)
