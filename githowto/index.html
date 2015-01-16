@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -100,23 +100,225 @@
 					</section>
 					<section>
 						<h2>Welcome to hell, Again</h2>
-						<h3> Hell : "Merge" </h3>
+						<h3> Hell named <em>Merge</em> </h3>
 						<img data-src="img/welcome_to_hell.jpg">
 					</section>
 					<section>
 						<h1 align="left">Now   <em>GIT</em></h1>
 						<section data-markdown>
-							1. Fast, fast, fast and fast
-							1. Tracked the file snapshot not copy when make branch
+							1. Decentralized - Perfect in itself
+							1. Tracks contents rather than files
+							1. It doesn't impose any workflow
+							1. Makes branching and merging really easy
 							1. No pain to merge branches
+							1. Fast, fast, fast and fast
 						</section>
+					</section>
+					<section>
+						<h2>If you just do git</h2>
+						<h3>then, you feel</h3>
 					</section>
 					<section>
 						<h1>Git is really cool!</h1>
 						<img data-src="https://shyblue.github.io/githowto/img/gitiscool.png">
 					</section>
 				</section>
+				<section>
+					<section>
+						<h1>Git with Stash</h1>
+					</section>
+					<section>
+						<h1>Stash?</h1>
+						<img data-src="img/stash.jpg">
+					</section>
+					<section>
+						<h1>Atlassian Stash</h1>
+						<h3>Repository solution of Atlassian</h3>
+						<h3>like Github</h3>
+						<img data-src="img/stash2.jpg">
+					</section>
+					<section>
+							<h1>Git GUI Clients</h1>
+					</section>
+					<section>
+						<p align="left">1. [Git for Windows](http://msysgit.github.io/)</p>
+						<img data-src="img/gitgui.png">
+					</section>
+					<section>
+						<p align="left">2 [GitHub windows](https://windows.github.com/)</p>
+						<img data-src="img/github.png">
+					</section>
+					<section>
+						<p align="left">3. [SourceTreeApp](http://www.sourcetreeapp.com/)</p>
+						<img data-src="img/sourcetree.png">
+					</section>
+					<section>
+						<p align="left">4. [TortoiseGit](https://code.google.com/p/tortoisegit/)</p>
+						<img data-src="img/tortoisegit.png">
+					</section>
 
+					<section>
+						<section data-markdown>
+							## How to use stash
+
+							1. [Make ssh keys](https://help.github.com/articles/generating-ssh-keys/)
+							1. https://git.mit.corp-apps.com/
+							1. [Managing account and click SSH Keys](https://git.mit.corp-apps.com/local/account)
+							1. [Add key click Register ssh public key](https://git.mit.corp-apps.com/local/plugins/servlet/ssh/account/keys)
+							1. Can make repositories for personal in [profile page](https://git.mit.corp-apps.com/local/profile)
+							1. Browse your repository
+						</section>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Let's begin</h1>
+					</section>
+					<section>
+						<h1>Configure Git</h1>
+						<p align="left"> User setting </p>
+						<pre><code class="bash">
+$ git config --global user.name "Your Name"
+$ git config --global user.email "account@hivetech.kr"
+						</code></pre>
+					</section>
+					<section>
+						<h1>Working with your repository</h1>
+					</section>
+					<section>
+						<h1>Start</h1>
+						<p align="left">Clone from repository</p>
+						<pre><code class="bash">
+$ git clone ssh://git@git.mit.corp-apps.com:7999/REPOURI
+						</code></pre>
+						<p align="left">Existing code</p>
+<pre><code class="bash">
+$ cd existing-project
+$ git init
+$ git add --all
+$ git commit -m "Initial Commit"
+$ git remote add origin ssh://git@git.mit.corp-apps.com:7999/~jcjang/log4cxx.git
+$ git push origin master
+</code></pre>
+					</section>
+					<section>
+					<p align="left">Code is already tracked by git</p>
+<pre><code class="bash">
+$ cd existing-project
+$ git remote set-url origin ssh://git@git.mit.corp-apps.com:7999/REPOURI
+$ git push origin master
+</code></pre>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Learn about GIT</h1>
+					</section>
+					<section>
+						<h1>Local <em>vs</em> Remote</h1>
+						<img data-src="img/gitmodel.png">
+					</section>
+					<section>
+						<h1>Confusing : Staging</h1>
+						<img data-src="img/staging.png">
+					</section>
+					<section>
+						<h1>Comit & Push</h1>
+						<img data-src="img/gitcommit.png">
+					</section>
+					<section>
+						<h1>Pull & merge</h1>
+						<img data-src="img/git-storage-model.png">
+					</section>
+					<section>
+						<h1>Branch & Merge</h1>
+						<img data-src="img/target-merge-branches.png">
+					</section>
+					<section>
+						<h1>Checkout & Reset</h1>
+						<img data-src="img/git-goodparts-move.png">
+					</section>
+					<section>
+						<img data-src="img/gitcommand.png">
+					</section>
+					<section>
+						<img data-src="img/gitconcept.png">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Most important thing is</h2>
+						<h1><strong>Policy</strong></h>
+					</section>
+					<section>
+						<h1>Git flow</h1>
+						<p>
+							Git flow is successful branch model with git
+						</p>
+					</section>
+					<section>
+						<p>
+							Every thing is start from this picture
+						</p>
+						<img data-src="img/gitflow.png">
+					</section>
+					<section>
+						<h1>How git flow works</h1>
+						<img data-src="img/gitflow-works.png">
+					</section>
+					<section>
+						<h1>Master</h1>
+						<p>Keep master clean and just use for tagging.</p>
+						<p>Master is history of release.</p>
+					</section>
+					<section>
+						<h1>Develop</h1>
+						<p>
+							Develop on <em>develop</em> branch but always keep buildable and usable.
+						</p>
+					</section>
+					<section>
+						<h1>Historical Branches</h1>
+						<img data-src="img/gitflow-master.png">
+					</section>
+					<section>
+						<h1>Feature</h1>
+						<p>
+							Add new features on <em>feature</em> branch apply it to develop when feature finish.
+						</p>
+					</section>
+					<section>
+						<h1>Feature branches</h1>
+						<img data-src="img/gitflow-feature.png">
+					</section>
+					<section>
+						<h1>Release</h1>
+						<p>
+							Use <em>release</em> to bump up version & fix bugs for Release candidates.
+						</p>
+					</section>
+					<section>
+						<h1>Release Branches</h1>
+						<img data-src="img/gitflow-release.png">
+					</section>
+					<section>
+						<h1>Hotfix</h1>
+						<p>
+							Fix release bug on <em>hotfix</em> & apply it to master and develop when hotfix finish
+						</p>
+					</section>
+					<section>
+						<h1>
+							Maintenance Branches
+						</h1>
+						<img data-src="img/gitflow-hotfix.png">
+					</section>
+					<section>
+						<h1>Commands</h1>
+						<img data-src="img/git-flow-commands.png">
+					</section>
+				</section>
 			</div>
 
 		</div>
@@ -133,8 +335,11 @@
 				progress: true,
 				history: true,
 				center: true,
+				width: 1280,
+				height: 1024,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
 
 				// Optional reveal.js plugins
 				dependencies: [
